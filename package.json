@@ -2,7 +2,11 @@
   "name": "trending-assets",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://suyious.github.io/relative-frontend-assessment/",
+  "homepage": "https://relative-frontend-assessment.netlify.app/",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/Suyious/relative-frontend-assessment"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
