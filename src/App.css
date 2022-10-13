@@ -1,0 +1,48 @@
+:root {
+	--primary-background-dark-blue: #14172B;
+	--secondary-background-dark-blue: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%), linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(46, 49, 73, 0) 107.43%);
+	--accent-background-dark-blue: #14172B;
+	--primary-foreground-white: #ECF0FF;
+	--primary-foreground-gray: #5A5F7D;
+	--secondary-foreground-gray: #737BAE;
+	--accent-forground-green: #00FFA3;
+	--accent-forground-red: #FF4D4D;
+	--primary-border-source: linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(46, 49, 73, 0) 107.43%);
+
+
+}
+
+.flex {
+	display: flex;
+}
+
+.gap-2 {
+	gap: 2em;
+}
+
+.br-10 {
+	border-radius: 10px;
+}
+
+.bg-secondary {
+	background: var(--secondary-background-dark-blue);
+}
+
+.app {
+	background: var(--primary-background-dark-blue);
+	color: var(--primary-foreground-white);
+	min-height: 100vh;
+}
+
+.trending-assets {
+	padding-top: 50vh;
+	max-width: 90vw;
+	margin-inline: auto;
+}
+
+.icon-text {
+	padding: 0.5em 1em;
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
