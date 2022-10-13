@@ -1,19 +1,32 @@
 :root {
 	--primary-background-dark-blue: #14172B;
 	--secondary-background-dark-blue: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%), linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(46, 49, 73, 0) 107.43%);
-	--accent-background-dark-blue: #14172B;
 	--primary-foreground-white: #ECF0FF;
-	--primary-foreground-gray: #5A5F7D;
-	--secondary-foreground-gray: #737BAE;
-	--accent-forground-green: #00FFA3;
-	--accent-forground-red: #FF4D4D;
-	--primary-border-source: linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(46, 49, 73, 0) 107.43%);
-
-
+	--primary-foreground-gray: #737BAE;
+	--secondary-foreground-gray: #5A5F7D;
+	--accent-foreground-green: #00FFA3;
+	--accent-foreground-red: #FF4D4D;
 }
 
 .flex {
 	display: flex;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.gap-1 {
+	gap: 1em;
 }
 
 .gap-2 {
@@ -24,8 +37,60 @@
 	border-radius: 10px;
 }
 
+.br-50 {
+	border-radius: 50px;
+}
+
+.margini-auto {
+	margin-inline: auto;
+}
+
+.padding-1-2 {
+	padding: 1em 2em;
+}
+
+.width-90pc {
+	width: 90%;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute-top-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.absolute-top-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 .bg-secondary {
 	background: var(--secondary-background-dark-blue);
+}
+
+.bg-accent-dark-blue {
+	background: var(--primary-background-dark-blue);
+}
+
+.fg-primary-gray {
+	color: var(--primary-foreground-gray);
+}
+
+.fg-secondary-gray {
+	color: var(--secondary-foreground-gray);
+}
+
+.fg-accent-green {
+	color: var(--accent-foreground-green);
+}
+
+.fg-accent-red {
+	color: var(--accent-foreground-red);
 }
 
 .app {
@@ -35,7 +100,7 @@
 }
 
 .trending-assets {
-	padding-top: 50vh;
+	padding-top: 20em;
 	max-width: 90vw;
 	margin-inline: auto;
 }
@@ -45,4 +110,8 @@
 	display: flex;
 	align-items: center;
 	gap: 1em;
+}
+
+.cards-list > div{
+	width: 20%;
 }

@@ -4,7 +4,7 @@ export type CoinType = {
 	icon: CoinNameType;
 	coin: string;
 	price: string,
-	change: string,
+	change: number,
 	tvl: string;
 	pairs: CoinNameType[];
 }

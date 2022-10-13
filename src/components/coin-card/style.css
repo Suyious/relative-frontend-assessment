@@ -1,1 +1,8 @@
+.coin-pairs-icons {
+	background: var(--primary-background-dark-blue);
+}
 
+.coin-pairs-icons svg {
+	width: 2em;
+	height: auto;
+}
