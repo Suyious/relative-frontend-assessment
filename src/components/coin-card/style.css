@@ -1,5 +1,6 @@
 .coin-pairs-icons {
 	background: var(--primary-background-dark-blue);
+	padding: 0.5em 1em;
 }
 
 .coin-pairs-icons svg {

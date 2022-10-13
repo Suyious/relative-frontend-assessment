@@ -21,6 +21,10 @@
 	justify-content: center;
 }
 
+.justify-space-between {
+	justify-content: space-between;
+}
+
 .align-center {
 	align-items: center;
 }
@@ -47,6 +51,10 @@
 
 .padding-1-2 {
 	padding: 1em 2em;
+}
+
+.padding-p5 {
+	padding: 0.7em 2em;;
 }
 
 .width-90pc {
@@ -100,18 +108,15 @@
 }
 
 .trending-assets {
-	padding-top: 20em;
-	max-width: 90vw;
+	padding-block: 17em;
+	max-width: min(90vw, 1920px);
 	margin-inline: auto;
 }
 
 .icon-text {
-	padding: 0.5em 1em;
+	padding: 0.5em 0em;
 	display: flex;
 	align-items: center;
 	gap: 1em;
-}
-
-.cards-list > div{
-	width: 20%;
+	margin-bottom: 3em;
 }
